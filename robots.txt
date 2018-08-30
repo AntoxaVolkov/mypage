@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /conference
+Disallow: /interior
+Disallow: /startup
+Disallow: /waxom
