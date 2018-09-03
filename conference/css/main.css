@@ -144,18 +144,16 @@ body {
 	display: inline-block;
 	background: #fff;
 	color: #779EAD;
-	padding: 5px;
 	width: 34px;
 	height: 34px;
 	text-align: center;
-	vertical-align: middle;
 	border-radius: 50%;
 	margin-right: 10px;
-
+	line-height: 34px;
+	transition: transform 0.5s;
 }
-.header .social a i{
-	vertical-align: middle;
-
+.header .social a:hover{
+	transform: scale(1.1);
 }
 
 .header .btn{
@@ -317,7 +315,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 21px;
 	text-transform: uppercase;
-	margin: 0;
+	margin-bottom: 5px;
 }
 
 .agenda_block .subtitle{
@@ -434,11 +432,11 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-attachment: fixed;
 	min-height: 800px;
 	padding-top: 140px;
 	padding-bottom: 100px;
 }
-
 .auditorium_block .white_block{
 	width: 410px;
 	background: #fff;
@@ -461,7 +459,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 21px;
 	text-transform: uppercase;
-	margin: 0;
+	margin-bottom: 5px;
 }
 
 .auditorium_block .subtitle{
@@ -502,7 +500,7 @@ body {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 21px;
 		text-transform: uppercase;
-		margin: 0;
+		margin-bottom: 5px;
 	}
 
 	.sponsors_block .subtitle{
@@ -537,7 +535,7 @@ body {
 		background: #cbf1f1;
 	}
 
-	.sponsors_block h2{
+	.footer h2{
 		font-family: 'Lovelo Bold', sans-serif;
 		font-size: 50px;
 		text-transform: uppercase;
@@ -546,6 +544,13 @@ body {
 
 	.botton-nav li {
 		display: inline-block;
+	}
+	
+	.botton-nav li a {
+		display: inline-block;
+		padding: 12px;
+		text-transform: uppercase;
+		color: #779EAD;
 	}
 
 	.botton-nav ul {
@@ -561,10 +566,31 @@ body {
 		border: 1px solid #2f2f2f;
 		text-transform: uppercase;
 		font-weight: 400;
+		transition: transform 0.5s;
 	}
 
 	.footer button:hover{
 		color: #cbf1f1;
 		background: #2f2f2f;
+	}
+
+	.footer .botton-nav  li a:hover{
+		transform: scale(1.1);
+	}
+
+	.footer .soc a{
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		line-height: 28px;
+		margin:5px;
+		border-radius: 50%;
+		color: #779EAD;
+		border: 2px solid #779EAD;
+	}
+
+	.footer .soc a:hover{
+		color: #fff;
+		background: #779EAD;
 	}
 /****** End Footer ******/ 
