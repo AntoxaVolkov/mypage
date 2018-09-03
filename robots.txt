@@ -3,3 +3,5 @@ Disallow: /conference
 Disallow: /interior
 Disallow: /startup
 Disallow: /waxom
+Disallow: /logist
+Disallow: /ruscivil
