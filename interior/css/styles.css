@@ -192,6 +192,7 @@ h3{
 }
 
 .slider__nav{
+    display: none;
     position: absolute;
     width: 100%;
     left: 0px;

@@ -25,6 +25,10 @@
         font-size: 48px;
     }
 
+    .header__text{
+        margin-top: 70px;
+    }
+
     .trending__all-link{
         float: none;
         text-align: center;
