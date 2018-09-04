@@ -5,8 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AntonVolkov</title>
+    <link rel="stylesheet" href="startup/css/main.min.css">
+    <style>
+        .demo__cover img{
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <a href="/" class="logo">AVolkov</a>
+            </div>
+        </nav>
+        <h1 class="header__title">AntonVolkov</h1>
+        <p class="desc">Demo page</p>
+    </header>
+    <main class="content flex-grow">
+		<section class="content__section demo section">
+			<div class="container">
+				<header class="section__header">
+					<h2 class="section__title">My demo works</h2>
+					<hr class="dash">
+					<p class="section__desc">(Данные работы я верстал по макетам из интернета или макетам которые мне предоставили)</p>
+				</header>
+				<div class="row section__content">
+					<div class="col-4-md">
+						<a href="/waxom/" class="demo__item">
+                            <div class="demo__cover">
+                                <img src="img/Screenshot_5.png" alt="Waxom">
+                            </div>
+                            <div class="demo__text">
+                                <h3 class="demo__title">Waxom</h3>
+                            </div>
+                        </a>
+					</div>
+					<div class="col-4-md">
+						<a href="/startup/" class="demo__item">
+                            <div class="demo__cover">
+                                <img src="img/Screenshot_6.png" alt="Startup">
+                            </div>
+                            <div class="demo__text">
+                                <h3 class="demo__title">Startup</h3>
+                            </div>
+                        </a>
+					</div>
+					<div class="col-4-md">
+						<a href="/logist/" class="demo__item">
+                            <div class="demo__cover">
+                                <img src="img/Screenshot_1.png" alt="Logist">
+                            </div>
+                            <div class="demo__text">
+                                <h3 class="demo__title">Logist</h3>
+                            </div>
+                        </a>
+					</div>
+					<div class="col-4-md">
+						<a href="/ruscivil/" class="demo__item">
+                            <div class="demo__cover">
+                                <img src="img/Screenshot_7.png" alt="Russian civilization">
+                            </div>
+                            <div class="demo__text">
+                                <h3 class="demo__title">Russian civilization</h3>
+                            </div>
+                        </a>
+					</div>
+					<div class="col-4-md">
+						<a href="/interior/" class="demo__item">
+                            <div class="demo__cover">
+                                <img src="img/Screenshot_4.png" alt="Interior">
+                            </div>
+                            <div class="demo__text">
+                                <h3 class="demo__title">Interior</h3>
+                            </div>
+                        </a>
+					</div>
+					<div class="col-4-md">
+						<a href="/conference/" class="demo__item">
+                            <div class="demo__cover">
+                                <img src="img/Screenshot_2.png" alt="Conference">
+                            </div>
+                            <div class="demo__text">
+                                <h3 class="demo__title">Conference</h3>
+                            </div>
+                        </a>
+					</div>
+				</div>
+			</div>
+        </section>
+    </main>
 </body>
 </html>
