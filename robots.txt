@@ -5,3 +5,4 @@ Disallow: /startup
 Disallow: /waxom
 Disallow: /logist
 Disallow: /ruscivil
+Disallow: /exspace
